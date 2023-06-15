@@ -1,8 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[3]:
+# In[1]:
 
+#importing python module
 
 import numpy as np
 
@@ -42,7 +41,7 @@ print(f"minimum of array is :{Min} and maximum of array is:{Max}")
         
 
 
-# In[20]:
+# In[3]:
 
 
 import numpy as np
@@ -67,7 +66,7 @@ print(f'''
 13.variance of array:{np.var(m)}''')
 
 
-# In[ ]:
+# In[4]:
 
 
 import numpy as np
@@ -96,7 +95,7 @@ print ("\nOriginal array:\n", arr)
 print ("Fattened array:\n", flarr)
 
 
-# In[34]:
+# In[5]:
 
 
 import numpy as np
@@ -125,7 +124,7 @@ print("reverse sorted array:\n",np.sort(-m),"\n")
 print("reverse sorted array by index:\n",np.sort(-m,axis=0),"\n")
 
 
-# In[1]:
+# In[6]:
 
 
 import numpy as np
@@ -149,7 +148,7 @@ ind = np.lexsort((a,b))
 print(ind)
 
 
-# In[ ]:
+# In[7]:
 
 
 import numpy as np
